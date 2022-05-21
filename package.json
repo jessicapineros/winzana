@@ -1,0 +1,19 @@
+{
+  "name": "winzana",
+  "scripts": {
+    "prod": "npx mix --production",
+    "watch": "npx mix watch",
+    "dev": "npx mix"
+  },
+  "author": "Jessica Pineros",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "laravel-mix": "^6.0.43",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "sass": "^1.52.0",
+    "sass-loader": "^13.0.0"
+  }
+}
