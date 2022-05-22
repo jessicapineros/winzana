@@ -1,4 +1,4 @@
-# winzana
+# Winzana
 
 ## Proposition pour le site de la Mairie de La Courtine
 
