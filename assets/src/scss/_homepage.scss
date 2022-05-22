@@ -1,0 +1,60 @@
+
+.block-links {
+    padding: 0 20px;
+    display: flex;
+    margin: auto;
+    margin-top: -40px;
+    max-width: 1066px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    .links-wrapper {
+        background-color: $white;
+        box-shadow: 0px 4px 19px rgba(0, 0, 0, .08);
+        border-radius: 25px;
+        padding: 20px;
+        font-family: $font-secondary;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+        @screen md {
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+        }
+
+        @screen lg {
+            padding: 38px 20px;
+        }
+    }
+
+    .link-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+
+        &:hover {
+            color: $primary;
+            font-weight: 600;
+        }
+
+        svg {
+            width: 36px;
+            height: 36px;
+
+            @screen lg {
+                width: 54px;
+                height: 54px;
+            }
+        }
+
+        span {
+            text-align: center;
+            font-size: .75rem;
+
+            @screen lg {
+                font-size: .875rem;
+            }
+        }
+    }
+}

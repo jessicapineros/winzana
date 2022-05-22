@@ -1,3 +1,7 @@
+import { Menu } from './Menu';
+import { Slider } from './Slider';
+
 document.addEventListener('DOMContentLoaded', () => {
-   console.log('jk')
+    new Slider();
+    new Menu();
 });

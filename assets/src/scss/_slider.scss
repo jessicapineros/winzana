@@ -1,0 +1,33 @@
+.slider {
+
+    .glide__arrows {
+        display: none;
+
+        @screen lg {
+            display: block;
+        }
+    }
+
+    .glide__arrow {
+        border: 0;
+        box-shadow: none;
+        position: absolute;
+
+        &--left {
+            left: -37px;
+        }
+
+        &--right {
+            right: -37px;
+            transform: rotate(180deg) translateY(50%);
+        }
+    }
+
+    .glide__bullets {
+        bottom: -40px;
+        
+        @screen lg {
+            display: none;
+        }
+    }
+}

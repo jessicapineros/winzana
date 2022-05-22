@@ -1,0 +1,70 @@
+body {
+    font-family: $font-primary;
+
+    &.menu-open {
+        overflow: hidden;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+a,
+button {
+    transition: color .2s ease-in;
+}
+
+.main-title {
+    font-family: $font-secondary;
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: bold;
+
+    @screen md {
+        font-size: 2rem;
+    }
+
+    @screen lg {
+        font-size: 3.125rem;
+    }
+}
+
+.title-section {
+    font-family: $font-secondary;
+    font-weight: bold;
+    font-size: 1.625rem;
+    text-align: center;
+    margin-bottom: 60px;
+   
+    @screen lg {
+        font-size: 2.3rem; 
+        margin-bottom: 80px;
+    }
+    
+    span {
+        position: relative;
+        display: inline-block;
+
+        &::after {
+            content: "";
+            width: 80%;
+            height: 2px;
+            display: block;
+            background-color: $secondary;
+            margin: auto;
+        }
+    }
+
+    &--white {
+        color: $white;
+
+        span::after {
+            background-color: $white
+        }
+    }
+}
+
+.h3 {
+    @apply text-xl font-bold;
+}
