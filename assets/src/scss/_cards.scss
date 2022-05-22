@@ -6,6 +6,15 @@
     @screen lg {
         max-width: 560px;
     }
+
+    &:hover {
+
+        .h3 {
+            text-decoration: underline;
+            text-decoration-thickness: 1.5px;
+            text-underline-offset: 2px;
+        }
+    }
 }
 
 .card-event {
@@ -13,27 +22,43 @@
     white-space: normal;
     height: 100%;
 
+    .image {
+        overflow: hidden;
+        display: block;
+
+        img {
+            transition: 1.5s transform ease-in-out;
+        }
+    }
+
     .content {
         padding: 30px;
-        padding-top: 50px;
+        padding-top: 43px;
         position: relative;
         height: 100%;
         display: block;
         
         .date {
             text-align: center;
-            min-width: 198px;
-            padding: 16px;
+            min-width: 165px;
+            padding: 12px;
             text-transform: uppercase;
             position: absolute;
-            top: -40px;
+            top: -30px;
             font-weight: 600;
             background-color: $blue;
             color: $white;
-            @apply left-2/4 -translate-x-1/2 text-lg;
+            @apply left-2/4 -translate-x-1/2 text-sm ;
         }
     }
 
+    &:hover {
+
+        img {
+            transform: scale(1.15);
+            transition: 1.5s transform ease-in-out;
+        }
+    }
 }
 
 .card-img {
