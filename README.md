@@ -6,6 +6,8 @@ J'ai proposé une nouvelle charte graphique pour la homepage du site de la Mair
 
 En termes d'ergonomie et design, j'ai fait plusieurs changements : 
 
+* Proposition d'un nouveau logotype, changement de couleurs et de typographies.
+
 * Pour la section d'actualités, dans la partie supérieure: au lieu d'une card très large qui pourrait créer des problèmes d'affichage selon le ratio de l'image, j'ai proposé deux cards, et trois cards pour la partie inférieure. 
 
 * J'ai modifié la card d'actualités en séparant les images du contenu, car les images et les textes ne sont pas très lisibles.  En effet, la couleur jaune se perd dans la couleur du fond compte tenu des couleurs utilisées et du dégradé.
